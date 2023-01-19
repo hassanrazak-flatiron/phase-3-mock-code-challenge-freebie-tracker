@@ -12,6 +12,27 @@ Dev.create(name: "Gazorpazop")
 
 puts "Creating freebies..."
 
+Freebie.create(item_name: "ball",value:5,dev_id:5,company_id:5)
+Freebie.create(item_name: "water-bottle",value:5,dev_id:6,company_id:6)
+Freebie.create(item_name: "ball",value:5,dev_id:7,company_id:7)
+Freebie.create(item_name: "ball",value:5,dev_id:8,company_id:8)
+Freebie.create(item_name: "ball",value:5,dev_id:5,company_id:9)
+Freebie.create(item_name: "ball",value:5,dev_id:6,company_id:5)
+Freebie.create(item_name: "ball",value:5,dev_id:7,company_id:5)
+Freebie.create(item_name: "ball",value:5,dev_id:8,company_id:8)
+Freebie.create(item_name: "ball",value:5,dev_id:8,company_id:7)
+Freebie.create(item_name: "ball",value:5,dev_id:8,company_id:5)
+Freebie.create(item_name: "ball",value:5,dev_id:7,company_id:5)
+Freebie.create(item_name: "ball",value:5,dev_id:5,company_id:5)
+Freebie.create(item_name: "ball",value:5,dev_id:6,company_id:5)
+Freebie.create(item_name: "ball",value:5,dev_id:6,company_id:7)
+Freebie.create(item_name: "ball",value:5,dev_id:8,company_id:5)
+Freebie.create(item_name: "ball",value:5,dev_id:7,company_id:8)
+Freebie.create(item_name: "ball",value:5,dev_id:5,company_id:7)
+Freebie.create(item_name: "ball",value:5,dev_id:6,company_id:7)
+Freebie.create(item_name: "ball",value:5,dev_id:7,company_id:6)
+Freebie.create(item_name: "ball",value:5,dev_id:8,company_id:5)
+
 # ***************************************************************
 # * TODO: create freebies! Remember, a freebie belongs to a dev *
 # * and a freebie belongs to a company.                         *
